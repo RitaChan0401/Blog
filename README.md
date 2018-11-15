@@ -1,4 +1,4 @@
 # MyBlog
 
 ↓↓↓↓↓↓↓URL↓↓↓↓↓↓↓↓<br>
-https://ritachan0401.github.io/MyBlog/TopPage
+https://ritachan0401.github.io/Blog/TopPage
