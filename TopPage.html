@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
-    
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="SlideShow.css">
         <link rel="stylesheet" href="menu.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script>
+            //スライドショー
             $(function(){
                 setElm = $('.SlideShow'); //フルスクリーンスライドショー全体を囲うブロック要素
                 fadeSpeed = 1000; //フェードアニメーションスピード
@@ -107,9 +106,16 @@
                     });
                 });
             });
-
+            
+            //ハンバーガーメニューの開閉
+            $(function(){
+                $('#nav_toggle').click(function(){
+                    $(".site-header").toggleClass('open');
+                    $("nav").fadeToggle(500);
+                });
+            }); 
         </script>
-     </head>
+    </head>
 
     <body>
         <div id="container">
@@ -125,30 +131,28 @@
                 </ul>
             </div>
         </div>
-        
-        <nav role="navigation" class="nav">
-            <ul class="nav-items">
-                <li class="nav-item">
-                    <a href="https://www.yahoo.co.jp/" class="nav-link"><span>Home</span></a>
-                </li> 
-                
-                <li class="nav-item">
-                    <a href="#" class="nav-link"><span>Blog</span></a>
-                </li> 
-               
-                 <li class="nav-item">
-                    <a href="#" class="nav-link"><span>Pictures</span></a>
-                </li>
-               
-                 <li class="nav-item">
-                    <a href="#" class="nav-link"><span>Videos</span></a>
-                </li> 
-                
-                <li class="nav-item">
-                    <a href="#" class="nav-link"><span>Contact</span></a>
-                </li>
-             </ul>
-        </nav>
-        
+        <header>
+            <div class="inner">
+                <div id="nav_toggle">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>            
+                <nav>
+                    <ul>
+                        <li class="header__logo"><a href="">Rita's Travelogue Blog</a></li>
+                        <li class="header__menu"><a href="">About</a></li>
+                        <li class="header__menu"><a href="">Works</a></li>
+                        <li class="header__menu"><a href="">Recruit</a></li>
+                        <li class="header__menu"><a href="">News</a></li>
+                        <li class="header__menu"><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     </body>
 </html>
+
+
