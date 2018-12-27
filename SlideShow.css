@@ -1,7 +1,7 @@
 #container {
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: absolute;
 }
 
 /* SlideShow
@@ -23,7 +23,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    display: none;
     position: absolute;
 }
 .SlideShow ul li img {

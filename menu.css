@@ -4,6 +4,7 @@ html{
     height: 100%;
 }
 body{
+    background: linear-gradient(-135deg, #006598, #001464);
     margin: 0;
     height: 100%;
     font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
@@ -15,7 +16,6 @@ body{
 }
 header{
     padding: 32px 0;
-    position: fixed; /*1番手前にだす*/
 }
 header .inner{
     display: flex;
@@ -29,7 +29,7 @@ header nav {
 header nav ul{
     display: flex;
     align-items: center;
-    list-style: none;
+
 }
 header nav ul li a{
     color: #fff;
@@ -37,11 +37,44 @@ header nav ul li a{
     font-weight: bold;
     padding: 16px ;
 }
+
+
 #nav_toggle{
     display: none;
 }
-/*スマホ時にフェードイン・アウトさせるメニュー*/
-@media screen and (max-width:960px){
+.change_btn{
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 25px 0;
+    font-size:20px;
+    margin-top: 40px;
+}
+
+/*スマホ・タブレット用の設定*/
+@media screen and (max-width:480px){
+    header{
+        padding: 16px 0;
+        position: relative;
+    }
+    h1{
+        width: 120px;
+    }
+    .inner{
+        width: 90%;
+    }
+    #main_img{
+        width: 100%;
+    }
+    .change_btn{
+        width: 90%;
+        margin: 32px auto;
+    }
+
+
     /*メニュー部分*/
     nav{
         display:none;
@@ -51,6 +84,7 @@ header nav ul li a{
         height: 100vh;
         background:rgba(255,255,255,0.8);
         left: 0;
+
     }
     header nav ul{
         display: block;
@@ -130,3 +164,6 @@ header nav ul li a{
         transform: rotate(-135deg);
     }
 }
+
+
+

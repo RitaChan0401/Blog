@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlideShow.css" beforeDir="false" afterPath="$PROJECT_DIR$/SlideShow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TopPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/TopPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu.css" afterDir="false" />
     </list>
@@ -19,13 +20,41 @@
     <favorites_list name="myblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,6 +71,7 @@
       <find>pnActive</find>
       <find>container</find>
       <find>visible</find>
+      <find>removeClass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -53,11 +83,12 @@
         <option value="$PROJECT_DIR$/Blog.html" />
         <option value="$PROJECT_DIR$/jquery-3.1.0.min.js" />
         <option value="$PROJECT_DIR$/fullSlideShow.css" />
-        <option value="$PROJECT_DIR$/menu.css" />
         <option value="$PROJECT_DIR$/menu.js" />
         <option value="$PROJECT_DIR$/memo.css" />
         <option value="$PROJECT_DIR$/SlideShow.css" />
         <option value="$PROJECT_DIR$/TopPage.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/menu.css" />
       </list>
     </option>
   </component>
@@ -124,7 +155,9 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545823359883" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -144,14 +177,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="menu.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="menu.js" working-dir="$PROJECT_DIR$">
+    <configuration type="NodeJSConfigurationType" path-to-js-file="menu.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.menu.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,11 +235,13 @@
       <workItem from="1536040052536" duration="305000" />
       <workItem from="1536075575466" duration="1634000" />
       <workItem from="1545704159521" duration="78000" />
+      <workItem from="1545821391329" duration="9000" />
+      <workItem from="1545821420452" duration="1909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54319000" />
+    <option name="totallyTimeSpent" value="56237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,17 +255,18 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Learn" />
-      <window_info id="デザイナー" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI デザイナー" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.22889842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.24105866" />
       <window_info id="Structure" order="1" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
       <window_info id="Favorites" order="2" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
+      <window_info id="Learn" order="3" />
+      <window_info id="デザイナー" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI デザイナー" order="7" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32880098" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32771084" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3992629" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -246,16 +277,48 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32880098" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32880098" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3292232" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="パレット" />
-      <window_info anchor="right" id="キャプチャー分析" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="パレット" order="5" />
+      <window_info anchor="right" id="キャプチャー分析" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.23462088" />
+      <window_info id="Structure" order="1" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
+      <window_info id="Favorites" order="2" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
+      <window_info id="Learn" order="3" />
+      <window_info id="デザイナー" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI デザイナー" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32923833" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3992629" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32880098" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32880098" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32880098" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3292232" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="パレット" order="5" />
+      <window_info anchor="right" id="キャプチャー分析" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -294,25 +357,32 @@
     <entry file="file://$PROJECT_DIR$/adad.php" />
     <entry file="file://$PROJECT_DIR$/menu.js" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
-    <entry file="file://$PROJECT_DIR$/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/memo.css" />
-    <entry file="file://$PROJECT_DIR$/TopPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SlideShow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>

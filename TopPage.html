@@ -63,19 +63,6 @@
                                     }
                                 });
                             }
-                            function switchPrev(){
-                                var setActive = pagination.find('.pnActive');
-                                setActive.each(function(){
-                                    var pnLengh = pnPoint.length,
-                                        pnIndex = pnPoint.index(this),
-                                        pnCount = pnIndex+1;
-                                    if(1 === pnCount){
-                                        pnLast.click();
-                                    } else {
-                                        $(this).prev('a').click();
-                                    }
-                                });
-                            }
                             function fadeTimer(){
                                 setAutoTimer = setInterval(function(){
                                     switchNext();
@@ -106,14 +93,24 @@
                     });
                 });
             });
-            
+        </script>
+        <script>
             //ハンバーガーメニューの開閉
-            $(function(){
-                $('#nav_toggle').click(function(){
-                    $(".site-header").toggleClass('open');
-                    $("nav").fadeToggle(500);
+            $(function() {
+                $(".nav-button").on("click", function() {
+                    if ($(this).hasClass("active")) {
+                        $(this).removeClass("active");
+                        $(".nav-wrap")
+                            .addClass("close")
+                            .removeClass("open");
+                    } else {
+                        $(this).addClass("active");
+                        $(".nav-wrap")
+                            .addClass("open")
+                            .removeClass("close");
+                    }
                 });
-            }); 
+            });
         </script>
     </head>
 
@@ -131,28 +128,29 @@
                 </ul>
             </div>
         </div>
-        <header>
-            <div class="inner">
-                <div id="nav_toggle">
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>            
-                <nav>
-                    <ul>
-                        <li class="header__logo"><a href="">Rita's Travelogue Blog</a></li>
-                        <li class="header__menu"><a href="">About</a></li>
-                        <li class="header__menu"><a href="">Works</a></li>
-                        <li class="header__menu"><a href="">Recruit</a></li>
-                        <li class="header__menu"><a href="">News</a></li>
-                        <li class="header__menu"><a href="">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+
+        <div class="header">
+            <a class="nav-button" href="">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <nav class="nav-wrap">
+                <ul class="nav">
+                    <li><a href="">Rita's Travelogue Blog</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </body>
 </html>
+
+
+
+
 
 
