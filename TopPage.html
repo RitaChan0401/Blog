@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <!--メディアクエリを指定する場合はViewportも必須！-->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="menu.css">
         <link rel="stylesheet" href="SlideShow.css">
-        <link rel="stylesheet" href="menu.css">
+        <title>Rita's Travelogue Blog</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script>
+        <script type="text/javascript">
             //スライドショー
             $(function(){
-                setElm = $('.SlideShow'); //フルスクリーンスライドショー全体を囲うブロック要素
+                setElm = $('.slideshow'); //フルスクリーンスライドショー全体を囲うブロック要素
                 fadeSpeed = 1000; //フェードアニメーションスピード
                 switchDelay = 5000; //スライドアニメーション待機時間
                 easing = 'linear'; //スライドする際のイージング
-                pnOpacity = 0.8; // PagiNation(画像選択ボタン)の透過度
                 ua = navigator.userAgent;
                 $(window).load(function(){
                     setElm.each(function(){
@@ -94,29 +96,21 @@
                 });
             });
         </script>
-        <script>
-            //ハンバーガーメニューの開閉
-            $(function() {
-                $(".nav-button").on("click", function() {
-                    if ($(this).hasClass("active")) {
-                        $(this).removeClass("active");
-                        $(".nav-wrap")
-                            .addClass("close")
-                            .removeClass("open");
-                    } else {
-                        $(this).addClass("active");
-                        $(".nav-wrap")
-                            .addClass("open")
-                            .removeClass("close");
-                    }
+
+        <script type="text/javascript">
+            //ハンバーガーメニューをクリックする度にheaderにopenクラスが追加・削除される。
+            $(function(){
+                $('#nav_toggle').click(function(){
+                    $("header").toggleClass('open');
+                    $("nav").fadeToggle(500);
                 });
             });
         </script>
     </head>
 
     <body>
-        <div id="container">
-            <div class="SlideShow">
+        <div id="screen">
+            <div class="slideshow">
                 <ul>
                     <li><a href="#1"><img src="img/IMG_0738.jpg" alt=""></a></li>
                     <li><a href="#2"><img src="img/IMG_0733.jpg" alt=""></a></li>
@@ -128,25 +122,30 @@
                 </ul>
             </div>
         </div>
-
-        <div class="header">
-            <a class="nav-button" href="">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-            <nav class="nav-wrap">
-                <ul class="nav">
-                    <li><a href="">Rita's Travelogue Blog</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SERVICE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-
+        
+        <header>
+            <div class="inner">
+                <div class="" id="nav_toggle">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Rita's Travelogue Blog</a></li>
+                        <li><a href="#">MENU2</a></li>
+                        <li><a href="#">MENU3</a></li>
+                        <li><a href="#">MENU4</a></li>
+                        <li><a href="#">MENU5</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     </body>
+    
+    
 </html>
 
 
