@@ -4,29 +4,20 @@
         <meta charset="UTF-8">
         <!--メディアクエリを指定する場合はViewportも必須！-->
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="menu.css">
-        <link rel="stylesheet" href="SlideShow.css">
         <title>Rita's Travelogue Blog</title>
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/SlideShow.css">
+        <link rel="stylesheet" type="text/css"href="css/fullpage.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script type="text/javascript" src="slideshow.js"></script>
-        <script type="text/javascript" src="menu.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/fullPage.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/easings.min.js"></script>
+        <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+        <script type="text/javascript" src="js/fullpage.min.js"></script>
     </head>
 
     <body>
-        <div id="screen">
-            <div class="slideshow">
-                <ul>
-                    <li><a href="#1"><img src="img/IMG_0738.jpg" alt=""></a></li>
-                    <li><a href="#2"><img src="img/IMG_0733.jpg" alt=""></a></li>
-                    <li><a href="#3"><img src="img/IMG_1022.jpg" alt=""></a></li>
-                    <li><a href="#4"><img src="img/IMG_1422.jpg" alt=""></a></li>
-                    <li><a href="#5"><img src="img/IMG_1566.jpg" alt=""></a></li>
-                    <li><a href="#6"><img src="img/IMG_0968.jpg" alt=""></a></li>
-                    <li><a href="#7"><img src="img/IMG_0889.jpg" alt=""></a></li>
-                </ul>
-            </div>
-        </div>
-        
         <header>
             <div class="inner">
                 <div class="" id="nav_toggle">
@@ -47,10 +38,26 @@
                 </nav>
             </div>
         </header>
+        
+        <div id="fullpage">
+            <div class="section">
+                <ul class="slide">
+                    <li><img src="img/IMG_0738.jpg" alt=""></li>
+                    <li><img src="img/IMG_0733.jpg" alt=""></li>
+                    <li><img src="img/IMG_1022.jpg" alt=""></li>
+                    <li><img src="img/IMG_1422.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
+            
+        </div>
     </body>
     
     
 </html>
+
 
 
 
