@@ -3,7 +3,7 @@ body{
     padding:0;
 }
 .slide{
-    position: absolute;
+    position: relative;
     list-style: none; /*li要素のリストマーク（・）を消す*/
     z-index: 1;
     
