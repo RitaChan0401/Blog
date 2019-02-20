@@ -24,3 +24,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div1 h3{
+    position: relative;
+    color: white;
+    top: 50%;
+    right: 90%;
+}
+
+div1 img{
+    position: relative;
+    height:90vh;
+    width:50vw;
+    object-fit: cover; /*画像を中央の位置でトリミングする*/
+    float: left;
+
+}
