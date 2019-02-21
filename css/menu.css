@@ -1,5 +1,6 @@
 .inner{
     width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 header{
@@ -26,6 +27,7 @@ header .inner{
 }
 
 header .site_logo{
+    color: black;
     width: auto;
     font-size: 120%;
     padding-left: 40px;
