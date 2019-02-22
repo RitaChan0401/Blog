@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <!--メディアクエリを指定する場合はViewportも必須！-->
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Rita's Travelogue Blog</title>
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link rel="stylesheet" type="text/css" href="css/SlideShow.css">
-    <link rel="stylesheet" type="text/css" href="css/topstyle.css">
-</head>
-<body>
-    <header>
-        <div class="inner">
-            <div id="nav_toggle">
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <head>
+        <meta charset="UTF-8">
+        <!--メディアクエリを指定する場合はViewportも必須！-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/topstyle.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/SlideShow.css">
+        
+        <title>Rita's Travelogue Blog</title>
+    </head>
+    <body>
+        <header>
+            <div class="inner">
+                <div id="nav_toggle">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
+                <a class="site_logo" href="#">Rita's Travelogue Blog</a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Pictures</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </nav>
             </div>
-            <h1 class="site_logo">Rita's Travelogue Blog</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pictures</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Profile</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <ul class="slide">
-        <li><img src="img/IMG_0738.jpg" alt=""></li>
-        <li><img src="img/IMG_0968.jpg" alt=""></li>
-        <li><img src="img/IMG_1022.jpg" alt=""></li>
-        <li><img src="img/IMG_0733.jpg" alt=""></li>
-        <li><img src="img/IMG_0889.jpg" alt=""></li>
-        <li><img src="img/IMG_0968.jpg" alt=""></li>
-        <li><img src="img/IMG_1566.jpg" alt=""></li>
-    </ul>
-    <p class="title">Is the order <br>a blog?</p>
-    <a class="scroll" href="#"><span></span>Scroll</a>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/slideshow.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
-</body>
+        </header>
+        <ul class="slide">
+            <li><img src="img/IMG_0738.jpg" alt=""></li>
+            <li><img src="img/IMG_0968.jpg" alt=""></li>
+            <li><img src="img/IMG_1022.jpg" alt=""></li>
+            <li><img src="img/IMG_0733.jpg" alt=""></li>
+            <li><img src="img/IMG_0889.jpg" alt=""></li>
+            <li><img src="img/IMG_0968.jpg" alt=""></li>
+            <li><img src="img/IMG_1566.jpg" alt=""></li>
+        </ul>
+        <p class="title">Is the order <br>a blog?</p>
+        <a class="scroll" href="#"><span></span>Scroll</a>
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+    </body>
 </html>

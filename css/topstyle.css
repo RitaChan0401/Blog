@@ -10,7 +10,6 @@ h1{
 body{
     background-color:#000;
     margin: 0;
-    height: 100%;
     font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 .title{
@@ -21,7 +20,7 @@ body{
     -ms-transform: translate(-50%,-50%);
     -webkit-transform : translate(-50%,-50%);
     transform : translate(-50%,-50%);
-    width: 100px;
+    width: 150px;
     text-align: center;
     z-index: 10;
     font-weight: bold;
@@ -113,8 +112,4 @@ body{
     100% {
         opacity: 0;
     }
-}
-
-.img-style{
-    
 }
