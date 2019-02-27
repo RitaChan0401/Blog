@@ -1,9 +1,9 @@
 .slide{
+    display: flex;
     position: relative;
     margin: 0%;
     list-style: none; /*li要素のリストマーク（・）を消す*/
     z-index: 1;
-    
 }
 .slide img{
     position: relative;
