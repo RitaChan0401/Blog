@@ -113,3 +113,20 @@ a.scroll span::before {
         opacity: 0;
     }
 }
+#germany h1{
+    margin-top: 5%;
+}
+
+#germany img{
+    margin: 0 20px 10px 0;
+    height:70vh;
+    width:55vw;
+    object-fit: cover; /*画像を中央の位置でトリミングする*/
+}
+
+#germany p{
+    display: inline-block;
+    vertical-align:top; /*縦方向の揃え位置を指定*/
+    color: white;
+}
+
