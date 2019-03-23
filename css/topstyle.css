@@ -113,20 +113,58 @@ a.scroll span::before {
         opacity: 0;
     }
 }
-#germany h1{
-    margin-top: 5%;
+
+.contents-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.contents-wrap:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 
-#germany img{
-    margin: 0 20px 10px 0;
-    height:70vh;
-    width:55vw;
-    object-fit: cover; /*画像を中央の位置でトリミングする*/
-}
-
-#germany p{
-    display: inline-block;
-    vertical-align:top; /*縦方向の揃え位置を指定*/
+.contents-text {
     color: white;
+    width: 60%; 
+    padding-top:20%; 
+    padding-left: 10%;
+
+}
+.contents-img {
+    margin-top: 7%;
+    width: 75%;
+}
+.contents-img:nth-child(odd){
+    margin-left:5%; 
 }
 
+.contents-text h2 {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+}
+
+.contents-img img {
+    display: block;
+    width: 85%;
+    height: 120%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+    .contents-wrap,
+    .contents-wrap:nth-child(odd)  {
+        flex-direction: column;
+    }
+
+    .contents-text,
+    .contents-img {
+        width: 100%; /*flex: 1;*/
+    }
+
+    .contents-text {
+        padding: 3rem;
+    }
+
+    .contents-text h2 {
+        text-align: center;
+    }
+}
