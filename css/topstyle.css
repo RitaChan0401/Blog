@@ -123,18 +123,18 @@ a.scroll span::before {
 }
 
 .contents-text {
+    position: relative;
     color: white;
-    width: 60%; 
-    padding-top:20%; 
-    padding-left: 10%;
-
+    width: 50%; 
+    padding-top: 20%; 
+    margin-left: 10%;
 }
 .contents-img {
-    margin-top: 7%;
-    width: 75%;
+    margin-top: 100px;
+    max-width: 1030px;
 }
 .contents-img:nth-child(odd){
-    margin-left:5%; 
+    margin-left: 5%; 
 }
 
 .contents-text h2 {
@@ -144,7 +144,7 @@ a.scroll span::before {
 
 .contents-img img {
     display: block;
-    width: 85%;
+    width: 90%;
     height: 120%;
     object-fit: cover;
 }
