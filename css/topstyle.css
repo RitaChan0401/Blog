@@ -125,30 +125,35 @@ a.scroll span::before {
 .contents-text {
     position: relative;
     color: white;
-    width: 50%; 
+    width: 60%; 
     padding-top: 20%; 
-    margin-left: 10%;
 }
-.contents-img {
-    margin-top: 100px;
-    max-width: 1030px;
+.contents-img1,
+.contents-img2,
+.contents-img3{
+    width: 55%;
 }
-.contents-img:nth-child(odd){
-    margin-left: 5%; 
+.contents-img1{
+    margin-top:5%; 
 }
-
+.contents-img1,.contents-img3{
+    margin-right: 4%; /*レスポンシブでは%指定*/
+}
+.contents-img2{
+    margin-left: 4%;
+}
 .contents-text h2 {
     margin-bottom: 2rem;
     font-size: 2.2rem;
 }
 
-.contents-img img {
+.contents-img1 img,
+.contents-img2 img,
+.contents-img3 img{
     display: block;
-    width: 90%;
-    height: 120%;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
-
 @media screen and (max-width: 768px){
     .contents-wrap,
     .contents-wrap:nth-child(odd)  {
@@ -156,7 +161,8 @@ a.scroll span::before {
     }
 
     .contents-text,
-    .contents-img {
+    .contents-img1,
+    .contents-img2{
         width: 100%; /*flex: 1;*/
     }
 
