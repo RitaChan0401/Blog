@@ -154,18 +154,21 @@ a.scroll span::before {
     width: 100%;
     height: auto;
 }
+
 @media screen and (max-width: 768px){
     .contents-wrap,
     .contents-wrap:nth-child(odd)  {
         flex-direction: column;
     }
-
     .contents-text,
     .contents-img1,
-    .contents-img2{
-        width: 100%; /*flex: 1;*/
+    .contents-img2,
+    .contents-img3{
+        width: 100%; 
     }
-
+    .contents-img1{
+        margin-top: 30%;
+    }
     .contents-text {
         padding: 3rem;
     }
