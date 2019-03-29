@@ -165,9 +165,10 @@ a.scroll span::before {
     .contents-img2,
     .contents-img3{
         width: 100%; 
+        margin:0;
     }
     .contents-img1{
-        margin-top: 30%;
+        margin-top: 40%;
     }
     .contents-text {
         padding: 3rem;
