@@ -126,7 +126,8 @@ a.scroll span::before {
     position: relative;
     color: white;
     width: 60%; 
-    padding-top: 20%; 
+    padding-top: 15%; 
+    text-align: center;
 }
 .contents-img1,
 .contents-img2,
