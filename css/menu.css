@@ -8,9 +8,7 @@ header.inner{
     /*アイテムの間にスペースを均等に割り付け*/
     justify-content: space-between;
     align-items: center;
-    
-    border-bottom: 1px solid #b4b4b4;
-
+    border-bottom: 1px solid #b4b4b4; 
 }
 @keyframes fade-in {
     from {

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 7rem;
-    margin: 10% 20% 0 20%;
+    margin: 5% 20% 0 20%;
     border-bottom: 1px solid #b4b4b4; 
 
 }
@@ -48,4 +48,11 @@
     .contents-text h2 {
         text-align: center;
     }
+}
+
+div.wide {
+    height: 500px;
+    background-position: 60%;
+    background-size: cover;
+    object-position: 100% 500px;
 }
