@@ -130,7 +130,7 @@ header nav ul li a:hover{
     }
 
     #nav_toggle span:nth-child(1) {
-        top: 0px;
+        top: 0;
     }
 
     #nav_toggle span:nth-child(2) {
