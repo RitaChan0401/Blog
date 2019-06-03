@@ -121,12 +121,11 @@ a.scroll span::before {
 .contents-wrap:nth-child(odd) {
     flex-direction: row-reverse;
 }
-
 .contents-text {
     position: relative;
     color: white;
     width: 60%; 
-    padding-top: 15%; 
+    padding-top: 15%;
     text-align: center;
 }
 .contents-img1,
@@ -156,7 +155,7 @@ a.scroll span::before {
     height: auto;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1010px){
     .contents-wrap,
     .contents-wrap:nth-child(odd)  {
         flex-direction: column;
