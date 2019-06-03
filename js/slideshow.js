@@ -27,7 +27,7 @@ $(function(){
     var all_li = slide_one.length;
 
     //新しい配列を作る
-    var img_all = new Array;
+    var img_all = [];
     for(var i =0 ; i<=all_li; i++){
 
         //.slide>liの中にあるimgをそれぞれ取得
@@ -42,7 +42,7 @@ $(function(){
     //スライド
     $(window).on('load',function(){
 
-        var fadeSpeed = 8000;
+        var fadeSpeed = 5000;
         // 切り替わりの間隔（ミリ秒）
         var switchDelay = 1000;
         //  フェード処理の早さ（ミリ秒）
