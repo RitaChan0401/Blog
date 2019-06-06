@@ -1,25 +1,26 @@
+h2.mainTitle{
+    text-align: center;
+}
 .contents-wrap {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 7rem;
     margin: 2% 20% 0 20%;
     border-bottom: 1px solid #b4b4b4; 
 }
 .contents-wrap:nth-child(odd) {
     flex-direction: row-reverse;
 }
-
+.contents-text h4 {
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
 .contents-text {
     width: 60%; /*flex: 2;*/
+    font-size: 0.9rem;
 }
 .contents-img {
     width: 35%; /*flex: 1;*/
     margin-bottom: 4%;
-}
-
-.contents-text h2 {
-    margin-bottom: 1rem;
-    font-size: 2.2rem;
 }
 
 .contents-img img {
@@ -36,20 +37,21 @@ p.wide img{
     overflow: hidden;
 }
 
-h2.maintitle{
-    margin-left: 20%; 
-}
-
 @media screen and (max-width: 768px){
     .contents-wrap,
     .contents-wrap:nth-child(odd)  {
         flex-direction: column;
         margin: 0;
     }
-
-    .contents-text,
+    h2.mainTitle{
+        text-align: center;
+    }
+    .contents-text{
+        width: 100%;
+    }
     .contents-img {
-        width: 100%; /*flex: 1;*/
+        width: 70%; /*flex: 1;*/
+        margin: 10px auto;
     }
 
     .contents-text {

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="画像の縮小化">
+    <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="edit topstyle.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/IMG_0738.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0738.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/IMG_0968.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0968.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/IMG_1022.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_1022.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutschland.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deutschland.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/DeutschlandStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/DeutschlandStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0666.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0666.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0678.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0678.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0693.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0693.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0711.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0711.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0734.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0734.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0789.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0789.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_0796.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_0796.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_1018.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_1018.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_1422.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_1422.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_1535.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_1535.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_1821.jpeg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TopPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="295">
+              <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -44,8 +54,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/topstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deutschland.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/DeutschlandStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -102,8 +133,10 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/SlideShow.css" />
         <option value="$PROJECT_DIR$/js/slideshow.js" />
-        <option value="$PROJECT_DIR$/css/topstyle.css" />
         <option value="$PROJECT_DIR$/TopPage.html" />
+        <option value="$PROJECT_DIR$/css/topstyle.css" />
+        <option value="$PROJECT_DIR$/Deutschland.html" />
+        <option value="$PROJECT_DIR$/css/DeutschlandStyle.css" />
       </list>
     </option>
   </component>
@@ -136,6 +169,11 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,8 +213,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TopPage.html">
+  <component name="RunManager" selected="JavaScript Debug.Deutschland.html">
     <configuration type="NodeJSConfigurationType" path-to-js-file="menu.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Deutschland.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myblog/Deutschland.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="TopPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myblog/TopPage.html" useBuiltInWebServerPort="true">
@@ -184,6 +225,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Deutschland.html" />
         <item itemvalue="JavaScript Debug.TopPage.html" />
       </list>
     </recent_temporary>
@@ -262,7 +304,7 @@
       <workItem from="1559600228556" duration="2923000" />
       <workItem from="1559628652996" duration="752000" />
       <workItem from="1559699020456" duration="738000" />
-      <workItem from="1559802941752" duration="800000" />
+      <workItem from="1559802941752" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="edit TopPage.html">
       <created>1559535248046</created>
@@ -313,11 +355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559803517955</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="画像の圧縮">
+      <created>1559803980116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559803980116</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit topstyle.css">
+      <created>1559804362952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559804362952</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70846000" />
+    <option name="totallyTimeSpent" value="72891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +388,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
       <window_info id="Favorites" order="2" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
       <window_info id="Learn" order="3" />
@@ -377,7 +433,9 @@
     <MESSAGE value="読み込み中を追加/画像の高画質化" />
     <MESSAGE value="lodingのgifをセンターへ変更" />
     <MESSAGE value="画像の縮小化" />
-    <option name="LAST_COMMIT_MESSAGE" value="画像の縮小化" />
+    <MESSAGE value="画像の圧縮" />
+    <MESSAGE value="edit topstyle.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit topstyle.css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/icon.png" />
@@ -479,20 +537,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/topstyle.css">
+    <entry file="file://$PROJECT_DIR$/Deutschland.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+        <state relative-caret-position="521">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TopPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="295">
+          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/topstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/DeutschlandStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
         </state>
       </provider>
     </entry>
