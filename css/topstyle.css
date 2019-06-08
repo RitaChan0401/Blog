@@ -48,7 +48,7 @@ body{
     border-radius: 0.5em;/*角丸*/   
 }
 
-a.scroll {
+a#scroll {
     position: absolute;
     padding-top: 60px;
     bottom: 20px;
@@ -60,7 +60,7 @@ a.scroll {
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-a.scroll span {
+a#scroll span {
     position: absolute;
     top: 0;
     left: 50%;
@@ -71,7 +71,7 @@ a.scroll span {
     border-radius: 100%;
     box-sizing: border-box;
 }
-a.scroll span::after {
+a#scroll span::after {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,7 +85,7 @@ a.scroll span::after {
     transform: rotate(-45deg);
     box-sizing: border-box;
 }
-a.scroll span::before {
+a#scroll span::before {
     position: absolute;
     top: 0;
     left: 0;
