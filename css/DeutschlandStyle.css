@@ -48,6 +48,7 @@ p.wide img{
     }
     .contents-text{
         width: 100%;
+        font-size: 1rem;
     }
     .contents-img {
         width: 70%; /*flex: 1;*/
