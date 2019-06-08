@@ -134,7 +134,7 @@ a#scroll span::before {
     display: flex;
     justify-content: space-between;
 }
-.contents-wrap:nth-child(even) {
+.contents-wrap:nth-child(odd) {
     flex-direction: row-reverse;
 }
 .contents-text {
@@ -172,7 +172,7 @@ a#scroll span::before {
 
 @media screen and (max-width: 1010px){
     .contents-wrap,
-    .contents-wrap:nth-child(even)  {
+    .contents-wrap:nth-child(odd)  {
         flex-direction: column;
     }
     .contents-text,
