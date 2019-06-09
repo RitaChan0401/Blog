@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="ドイツブログ更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutschland.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deutschland.html" afterDir="false" />
-    </list>
+    <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="ドイツブログ更新" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +252,7 @@
       <workItem from="1559699020456" duration="738000" />
       <workItem from="1559802941752" duration="4301000" />
       <workItem from="1559981797707" duration="16416000" />
-      <workItem from="1560048856614" duration="169000" />
+      <workItem from="1560048856614" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="edit TopPage.html">
       <created>1559535248046</created>
@@ -352,7 +349,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90932000" />
+    <option name="totallyTimeSpent" value="91134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
