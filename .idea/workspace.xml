@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="ドイツブログ更新">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rita.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/rita.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutschland.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deutschland.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/DeutschlandStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blogstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/TopPage.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deutschland.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" selection-start-line="53" selection-start-column="4" selection-end-line="66" />
+            <state relative-caret-position="269">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Colmar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-end-line="108" />
+            <state relative-caret-position="1395">
+              <caret line="93" column="16" lean-forward="true" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TopPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="421">
+              <caret line="71" column="51" lean-forward="true" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -138,12 +135,12 @@
         <option value="$PROJECT_DIR$/css/SlideShow.css" />
         <option value="$PROJECT_DIR$/js/slideshow.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/TopPage.html" />
         <option value="$PROJECT_DIR$/css/topstyle.css" />
         <option value="$PROJECT_DIR$/css/DeutschlandStyle.css" />
         <option value="$PROJECT_DIR$/Deutschland.html" />
         <option value="$PROJECT_DIR$/css/ColmarStyle.css" />
         <option value="$PROJECT_DIR$/Colmar.html" />
+        <option value="$PROJECT_DIR$/TopPage.html" />
       </list>
     </option>
   </component>
@@ -319,7 +316,7 @@
       <workItem from="1559981797707" duration="16416000" />
       <workItem from="1560048856614" duration="617000" />
       <workItem from="1560049925670" duration="9969000" />
-      <workItem from="1560096565357" duration="3832000" />
+      <workItem from="1560096565357" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="edit TopPage.html">
       <created>1559535248046</created>
@@ -416,7 +413,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105181000" />
+    <option name="totallyTimeSpent" value="105428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,16 +596,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/IMG_1022_1.jpeg" />
-    <entry file="file://$PROJECT_DIR$/Deutschland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" selection-start-line="53" selection-start-column="4" selection-end-line="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blogstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -616,20 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TopPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Colmar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-end-line="108" />
+        <state relative-caret-position="1395">
+          <caret line="93" column="16" lean-forward="true" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -640,6 +617,26 @@
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="71" column="51" lean-forward="true" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deutschland.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
