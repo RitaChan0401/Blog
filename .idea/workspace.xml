@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="ドイツブログ更新" />
+    <list default="true" id="47590f5d-6388-49dc-9e35-656209d800ea" name="Default" comment="ドイツブログ更新">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rita.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/rita.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutschland.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deutschland.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/DeutschlandStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blogstyle.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +28,67 @@
     <favorites_list name="myblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deutschland.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="66" selection-start-line="53" selection-start-column="4" selection-end-line="66" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Colmar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-end-line="108" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/blogstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -83,6 +142,8 @@
         <option value="$PROJECT_DIR$/css/topstyle.css" />
         <option value="$PROJECT_DIR$/css/DeutschlandStyle.css" />
         <option value="$PROJECT_DIR$/Deutschland.html" />
+        <option value="$PROJECT_DIR$/css/ColmarStyle.css" />
+        <option value="$PROJECT_DIR$/Colmar.html" />
       </list>
     </option>
   </component>
@@ -108,7 +169,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,8 +220,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Deutschland.html">
+  <component name="RunManager" selected="JavaScript Debug.Colmar.html">
     <configuration type="NodeJSConfigurationType" path-to-js-file="menu.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Colmar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myblog/Colmar.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Deutschland.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myblog/Deutschland.html" useBuiltInWebServerPort="true">
@@ -171,6 +235,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Colmar.html" />
         <item itemvalue="JavaScript Debug.Deutschland.html" />
         <item itemvalue="JavaScript Debug.TopPage.html" />
       </list>
@@ -252,7 +317,9 @@
       <workItem from="1559699020456" duration="738000" />
       <workItem from="1559802941752" duration="4301000" />
       <workItem from="1559981797707" duration="16416000" />
-      <workItem from="1560048856614" duration="371000" />
+      <workItem from="1560048856614" duration="617000" />
+      <workItem from="1560049925670" duration="9969000" />
+      <workItem from="1560096565357" duration="3832000" />
     </task>
     <task id="LOCAL-00001" summary="edit TopPage.html">
       <created>1559535248046</created>
@@ -349,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91134000" />
+    <option name="totallyTimeSpent" value="105181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,8 +429,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.19670959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49938196" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
       <window_info id="Favorites" order="2" sideWeight="0.50061804" side_tool="true" weight="0.28898427" />
       <window_info id="Learn" order="3" />
@@ -526,30 +594,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TopPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/css/ColmarStyle.css" />
+    <entry file="file://$PROJECT_DIR$/img/IMG_2000.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/IMG_1022_1.jpeg" />
     <entry file="file://$PROJECT_DIR$/Deutschland.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4188">
-          <caret line="314" column="52" lean-forward="true" selection-start-line="314" selection-start-column="52" selection-end-line="314" selection-end-column="52" />
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="53" selection-start-column="4" selection-end-line="66" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/DeutschlandStyle.css">
+    <entry file="file://$PROJECT_DIR$/css/blogstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Colmar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-end-line="108" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
