@@ -5,7 +5,7 @@ h2.mainTitle{
     display: flex;
     justify-content: space-between;
     margin: 2% 20% 0 20%;
-    border-bottom: 1px solid #b4b4b4; 
+    border-bottom: 1px solid #b4b4b4;
 }
 .contents-wrap:nth-child(odd) {
     flex-direction: row-reverse;
@@ -39,7 +39,7 @@ p.wide img{
 
 @media screen and (max-width: 768px){
     .contents-wrap,
-    .contents-wrap:nth-child(odd)  {
+    .contents-wrap:nth-child(odd) {
         flex-direction: column;
         margin: 0;
     }
@@ -68,4 +68,5 @@ p.wide img{
         height: 100%;
         width: 100%;
     }
+
 }
