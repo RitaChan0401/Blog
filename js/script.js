@@ -1,12 +1,23 @@
 //読み込み中を表示するためのscript
 $(function() {
     var h = $(window).height();
-    $('#loader-bg ,#loader').height(h).css('display','block');
+  $('.loadAfter').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
 });
 $(window).load(function () {
-    $('#loader-bg').delay(1000).fadeOut(900);
+    $('#loader-bg').delay(900).fadeOut(800);
     $('#loader').delay(600).fadeOut(300);
+    $('#loadAfter').css('display','block');
 });
+$(function(){
+  setTimeout('stopload()',10000);
+});
+function stopload(){
+  $('#loadAfter').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+
 
 //ハンバーガーメニューをクリックする度にheaderにopenクラスが追加・削除される。
 $(function(){

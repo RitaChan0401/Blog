@@ -12,22 +12,22 @@ body{
     margin: 0;
     font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
-#loading{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform : translate(-50%,-50%);
-    transform : translate(-50%,-50%);
-
-}
 #loader-bg {
-    position: relative;
+    display: block;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     background: #FFF;
-    z-index: 1;
+    z-index: 10;
+}
+#loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
 }
 .title{
     position: absolute;/*絶対配置*/
@@ -42,10 +42,10 @@ body{
     z-index: 10;
     font-weight: bold;
     font-size: 150%;
-   
+
     border: solid 3px white;/*線色*/
     padding: 1.0em;/*文字周りの余白*/
-    border-radius: 0.5em;/*角丸*/   
+    border-radius: 0.5em;/*角丸*/
 }
 
 a#scroll {
@@ -139,7 +139,7 @@ a#scroll span::before {
 }
 .contents-text {
     color: white;
-    width: 60%; 
+    width: 60%;
     padding-top: 15%;
     text-align: center;
 }
@@ -149,7 +149,7 @@ a#scroll span::before {
     width: 55%;
 }
 .contents-img1{
-    margin-top:5%; 
+    margin-top:5%;
 }
 .contents-img1,.contents-img3{
     margin-right: 4%; /*レスポンシブでは%指定*/
@@ -179,7 +179,7 @@ a#scroll span::before {
     .contents-img1,
     .contents-img2,
     .contents-img3{
-        width: 100%; 
+        width: 100%;
         margin:0;
     }
     .contents-img1{
